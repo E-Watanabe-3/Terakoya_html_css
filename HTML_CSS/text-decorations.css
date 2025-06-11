@@ -1,0 +1,35 @@
+.decoration {
+    /*フォントサイズ*/
+    font-size: 25px;
+    /*文字色*/
+    color: rgb(0, 255, 119);
+    /* 太字 */
+    font-weight: bold;
+    /* 書体 */
+    font-family:  "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic";
+    /* 斜体 */
+    font-style: italic;
+    /* 行間 */
+    line-height: 5;
+    /* 字間 */
+    letter-spacing: 1em;
+    /* 下線 */
+    text-decoration: underline;
+    /* 取り消し線 */
+    text-decoration: line-through;
+    /* 枠線で囲む solid,dotted,dashed,double */
+    border: double 10px rgb(255, 89, 0);
+    /* 文字の上下左右に線を引く top,bottom,left,right */
+    border-top: solid 10px rgb(0, 0, 0);
+    border-bottom: dotted 10px blue;
+    /* 文字の背景色 */
+    background-color: rgb(189, 189, 189);
+    /* 文字に影をつける */
+    text-shadow: 10px 5px 10px rgb(91, 91, 91);
+    /* 文字の位置 left.center,right */
+    text-align: center;
+}
+.text-bold {
+    font-size: 20px;
+    font-weight: bold;
+}
