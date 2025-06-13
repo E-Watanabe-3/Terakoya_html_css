@@ -1,0 +1,69 @@
+/*widthをpxで指定する*/
+/*.parent {
+  width: 300px;
+  background-color: yellow;
+}
+.child {
+  width: 150px;
+  background-color: orange;
+} */
+
+/*widthを%で指定する*/
+/*.parent {
+  width: 300px;
+  width: 100%;
+  background-color: yellow;
+}
+.child {
+  width: 150px;
+  width: 50%;
+  background-color: orange;
+} */
+
+/*widthをautoで指定する（初期値）*/
+/*.parent {
+  width: 100%;
+  width: auto;
+  background-color: yellow;
+}
+.child {
+  width: 50%;
+  width: auto;
+  background-color: orange;
+}*/
+
+/*widthの初期値にはautoが設定されている,
+わざわざwidth: auto;と書かなくても同じ結果になる
+.parent {
+  width: auto;
+  background-color: yellow;
+}
+.child {
+  width: auto;
+  background-color: orange;
+}*/
+
+/*min-widthは幅の最小値を指定するプロパティ
+.parent {
+  width: auto;
+  background-color: yellow;
+}
+.child {
+  width: 50%;
+  min-width: 300px;
+  background-color: orange;
+}*/
+
+
+/*max-widthは幅の最大値を指定するプロパティ*/
+.parent {
+  width: auto;
+  background-color: yellow;
+}
+.child {
+  width: 50%;
+  min-width: 300px;
+  width: 80%;
+  max-width: 600px;
+  background-color: orange;
+}

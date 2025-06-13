@@ -1,0 +1,13 @@
+#one {
+  height: auto;
+  background-color: yellow;
+}
+#two {
+  height: auto;
+  background-color: orange;
+}
+/* htmlに要素がない。要素の高さ=0となり表示されない*/
+#three {
+  height: auto;
+  background-color: pink;
+}
