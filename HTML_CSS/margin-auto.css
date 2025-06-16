@@ -1,0 +1,13 @@
+/*div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}*/
+/*中央揃え*/
+div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}

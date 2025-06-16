@@ -1,0 +1,63 @@
+/* inline（インライン）にmargin（マージン）を指定 */
+/* width,heightは指定不可 */
+/*p {
+    background-color: yellow;
+}
+#first-span {
+    width: 500px;
+    height: 500px;
+    margin: 20px
+    background-color: lightblue;
+}
+#second-span {
+    margin: 30px;
+    background-color: lightgreen;
+}
+#third-span {
+    margin: 40px;
+    background-color: lightgray;
+} */
+ 
+/* inline（インライン）にpadding（パディング）を指定 */
+/* 上下のパディングを入れると崩れる*/
+/*p {
+  background-color: yellow;
+}
+#first-span {
+  margin: 20px;
+  padding: 20px;
+  background-color: lightblue;
+}
+#second-span {
+  margin: 30px;
+  padding: 30px;
+  background-color: lightgreen;
+}
+#third-span {
+  margin: 40px;
+  padding: 40px;
+  background-color: lightgray;
+}*/
+
+/* inline（インライン）の要素にパディングを指定するときは、左右だけ */
+p {
+  background-color: yellow;
+}
+#first-span {
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: lightblue;
+}
+#second-span {
+  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: lightgreen;
+}
+#third-span {
+  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: lightgray;
+}

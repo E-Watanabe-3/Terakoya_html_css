@@ -1,0 +1,45 @@
+/* 初期値であるposition: static;の場合の位置 */
+/*.parent {
+   height: 400px;
+   background-color: lightcyan;
+}
+#first-div {
+   width: 100px;
+   height: 100px;
+   background-color: orange;
+}
+#second-div {
+   width: 100px;
+   height: 100px;
+   background-color: yellow;
+}
+#third-div {
+   width: 100px;
+   height: 100px;
+   background-color: pink;
+}*/
+
+/*子要素3つ目のdiv要素にposition: absolute;を指定して、親要素を基準にした絶対位置に配置  */
+.parent {
+    position: relative;
+    height: 400px;
+    background-color: lightcyan;
+}
+#first-div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+#second-div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+#third-div {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}

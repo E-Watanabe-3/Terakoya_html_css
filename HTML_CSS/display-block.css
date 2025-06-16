@@ -1,0 +1,44 @@
+/* display: block要素が縦に並んでいく */
+/*#first-paragraph {
+  background-color: yellow;
+}
+#second-paragraph {
+  background-color: orange;
+}
+#third-paragraph {
+  background-color: pink;
+}*/
+
+/* width・heightプロパティで幅と高さを指定 */
+/*#first-paragraph {
+  width: 200px;
+  background-color: yellow;
+}
+#second-paragraph {
+  height: 100px;
+  background-color: orange;
+}
+#third-paragraph {
+  width: 50%;
+  height: 200px;
+  background-color: pink;
+}*/
+
+/* padding・marginプロパティで上下左右に余白を指定 */
+#first-paragraph {
+  width: 200px;
+  padding: 100px;
+  background-color: yellow;
+}
+#second-paragraph {
+  height: 100px;
+  margin: 100px;
+  background-color: orange;
+}
+#third-paragraph {
+  width: 50%;
+  height: 200px;
+  padding: 50px;
+  margin: 50px;
+  background-color: pink;
+}
