@@ -1,0 +1,34 @@
+.parent {
+   background-color: whitesmoke;
+}
+/* 未訪問のリンク */
+a:link {
+    color: orange;
+}
+/* 訪問済のリンク */
+a:visited {
+    color: green;
+}
+/*マウスのカーソルが乗っているとき*/
+a:hover {
+    color: purple;
+}
+/* アクティブ状態時(クリック中) */
+a:active {
+    color: red;
+}
+/* :nth-child(n)（親要素内の"全ての要素"のうちｎ番目の子要素） */
+/* html内の「段落２です」を指定したい→h,a,p等合わせて４番目 */
+.parent p:nth-child(4) {
+    color: red;
+}
+/* :nth-of-type(n)（親要素内の"同じ要素"のうち、n番目の子要素） */
+/* html内の「段落４です」を指定したい→p要素だけで４番目 */
+.parent p:nth-of-type(4) {
+    color: blue;
+}
+/* :not(p) p要素以外の要素 */
+div :not(p) {
+    color: orange;
+    text-decoration-line: line-through; /*取り消し線*/
+}

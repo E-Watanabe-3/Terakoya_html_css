@@ -1,0 +1,22 @@
+/* ::before（要素の直前にコンテンツ追加）*/
+h1::before {
+    content: "◆";
+    color: orange;
+}
+/* ::after（要素の直後にコンテンツ追加）*/
+h1::after {
+    content: "■";
+    color: pink;
+}
+/* ::first-letter（要素の最初の文字を装飾）*/
+p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+}
+/* ::first-line（要素の最初の行を装飾） */
+p::first-line {    
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+}
